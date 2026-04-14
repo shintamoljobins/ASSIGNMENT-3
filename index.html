@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling a Personal Portfolio with CSS3</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header>
+
+        <h1>Shintamol Thomas</h1>
+        <p>PORTFOLIO WEBPAGE</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- main section -->
+    <main>
+
+        <figure id="protrait">
+            <img src="images/1000596176.png" alt="profile-picture" width="200">
+            <figcaption>Protrait of Shintamol</figcaption>
+        </figure>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Shintamol Thomas. I am from Idukki.
+                I have completed my bachelor's degree in <span style="color:blue;font-weight:bold;">
+                    MBC College of Engineering & Technology.
+                    Kuttikkanam,Peermade</span>.
+                I belong to a nuclear family.
+            </p>
+        </section>
+
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>To acquire a challenging and responsible position, to explore strength
+                and potential in a professional organization to meet employer's expectations.
+            </p>
+        </section>
+
+        <section id="hobbies">
+
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Gardening</li>
+                <li>Knitting</li>
+                <li>Jewellery making</li>
+                <li>Baking</li>
+                <li>Candle making</li>
+                <li>Cooking</li>
+            </ul>
+
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Blood Bank Management System</h3>
+                <p>It ia an automated blood bank system which provides
+                    the details of Donors which matches to the acceptors blood.
+                    The technologies used HTML , CSS , JavaScript , AJAX ,
+                    Codelgniter and MySqli.
+                </p>
+
+                <figure>
+                    <img width="300px" src="images/20251111_000757.jpg" alt="bloodbank website" />
+                    <figcaption>Home page of bloodbank</figcaption>
+                </figure>
+                <a href="#bloodbank">Blood Bank Management System</a>
+
+            </article>
+            <br>
+
+            <article>
+                <h3>Medicure</h3>
+                <p>It is a Doctor-Patient portal. The web application mainly
+                    focuses on the Hospital Management System.
+                    The technologies used HTML , CSS , JavaScript , AJAX ,
+                    Yii and MySqli.
+                </p>
+
+                <figure>
+                    <img width="300px" src="images/20251110_233645.jpg" alt="home page of medicure" />
+                    <figcaption>Home page of Medicure</figcaption>
+                </figure>
+
+                <figure>
+                    <img width="300px" src="images/20251110_233706.jpg" alt="Appointment portal of medicure" />
+                    <figcaption>User Appointment portal</figcaption>
+                </figure>
+
+
+                <a href="#medicure">Medicure</a>
+
+            </article>
+            <br>
+
+            <article>
+                <h3>Velvetz</h3>
+                <p>Online Shopping Cart. The main purpose of this projects
+                    to help the users to shop online rather than manually.
+                    The technologies used PHP-OOP , HTML , CSS , JavaScript , AJAX ,
+                    and MySqli.
+                </p>
+                <figure>
+
+                    <img width="300px" src="images/20251110_234219.jpg" alt="velvetz" />
+                    <figcaption>Shop Velvetz boutique<figcaption>
+                </figure>
+                <figure>
+                    <img width="200px" src="images/20251110_234157.jpg" alt="velvets photo" />
+                    <figcaption>Offer zone of Velvetz</figcaption>
+                </figure>
+
+                <a href="#velvetz">Velvetz</a>
+
+            </article>
+            <br>
+
+            <article>
+                <h3>Kids World</h3>
+                <p>This is an online blog for kids garments and toys.
+                    The technologies used Wordpress.
+                </p>
+                <figure>
+
+                    <img width="300px" src="images/20251110_234542.jpg" alt="kids world" />
+                    <figcaption>Shoping cart of kids clothes and toys</figcaption>
+                </figure>
+
+                <a href="#kidsworld">Kids World</a>
+
+            </article>
+            <br>
+
+            <article>
+                <h3>Mobile Opportunistic Network</h3>
+                <p>It is an application in smartphone which supports
+                    emerging applications such as mobile commerce and
+                    emergency services.
+                    The technologies used HTML , CSS , JavaScript , AJAX ,
+                    Yii and MySqli.
+                </p>
+                <figure>
+                    <img width="300px" src="images/20251110_235934.jpg" alt="MON website photo" />
+                    <figcaption>Mobile commerce & emergency services</figcaption>
+                </figure>
+
+                <a href="#mobileopportunisticnetwork">Mobile Opportunistic Network</a>
+
+            </article>
+        </section>
+        <br>
+
+
+        <a href="#top">go to top</a>
+
+
+        <br>
+        <section>
+
+            <form id="contact" action="success.html">
+                <h2>Contact Form</h2>
+                <label for="name">Full Name : </label>
+                <input type="text" placeholder="Enter your full name" minlength="5" required>
+                <br><br>
+
+                <label for="email">Email : </label>
+                <input type="email" placeholder="Enter your Email id" required />
+                <br><br>
+
+                <label for="subject">Subject :</label>
+                <input type="text" placeholder="Enter Subject" required />
+                <br><br>
+
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" rows="7" cols="40" placeholder="Type your message here..."
+                    minlength="4" required></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+
+        </section>
+    </main>
+
+
+    <!-- footer section -->
+    <footer>
+        <h4>Email:shintamoljobins@gmail.com</h4>
+        <h4>Mobile : 9645241608</h4>
+        <p>&copy;2026 My Webpage</p>
+    </footer>
+
+</body>
+
+</html>

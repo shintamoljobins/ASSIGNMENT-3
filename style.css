@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    margin: 15px;
+    padding: 25px;
+    border: 2px Solid black;
+    background-color: rgb(248, 211, 245);
+
+}
+
+header {
+    background-image: linear-gradient(rgb(238, 147, 215), rgb(249, 210, 249), rgb(223, 104, 223));
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header p {
+    color: rgb(63, 37, 37);
+    font-size: 20px;
+    padding: 3px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1opx;
+    padding: 0.5px;
+
+}
+
+header nav ul li a {
+    color: blue;
+    text-decoration: none;
+    padding: 40px;
+    transition: color o.3s ease-in;
+}
+
+header nav ul li a:hover {
+    color: rgb(243, 7, 251)
+}
+
+figure img {
+    width: 200px;
+    transition: width 1s;
+}
+
+figure img:hover {
+    width: 300px;
+}
+
+#protrait img {
+    border-radius: 50%;
+    border: 1px solid #de0ebe;
+}
+
+figcaption {
+    color: rgb(62, 7, 66);
+
+}
+
+h2 {
+    color: #611654;
+}
+
+section {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+article {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #f9eeee;
+    background-image: linear-gradient(rgb(238, 147, 215), rgb(249, 210, 249), rgb(223, 104, 223));
+
+}
+
+#contact {
+    width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 3px solid rgb(240, 230, 240);
+    border-radius: 3px;
+    background-color: rgb(245, 184, 236);
+    box-shadow: 3px 3px 10px darkgray;
+
+
+}
+
+form h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c877ec;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f40ccd;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(rgb(238, 147, 215), rgb(232, 18, 232), rgb(223, 104, 223));
+    color: white;
+}
